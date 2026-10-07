@@ -22,6 +22,7 @@ use oxipresso_render::KpseFontResolver;
 use editor_wire::{EditorWireSession, WireNotice, escape_wire_string};
 use oxipresso_editor_protocol::{InfoBuffer, WireProtocol};
 use oxipresso_engine_api::{ArtifactKind, DocumentArtifact};
+mod editor_wire;
 use oxipresso_render::{RenderBackend, XdvGlyphRenderBackend};
 use slint::{ComponentHandle, SharedString};
 

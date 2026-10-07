@@ -1,7 +1,7 @@
 [package]
 name = "oxipresso-editor-client"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 license = "MIT"
 description = "Live TeX preview GUI for the Oxipresso render server (a TeXpresso-style editor client)"
 repository = "https://github.com/EliorFoy/oxipresso-editor-client"
@@ -17,6 +17,7 @@ oxipresso-engine-api = { git = "https://github.com/EliorFoy/oxipresso" }
 oxipresso-render = { git = "https://github.com/EliorFoy/oxipresso", features = ["freetype"] }
 oxipresso-synctex = { git = "https://github.com/EliorFoy/oxipresso" }
 slint = "1.17"
+rfd = "0.15"
 
 [features]
 default = []
